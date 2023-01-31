@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayUtils util = new ArrayUtils();
-        util.getArraySize();
-        util.createArray(util.getSize());
-        util.sum(util.getArray());
+        int size = util.getArraySize();
+        double[] array = util.createArray(size);
+        double sum = util.sumOfSquares(array);
     }
 }
